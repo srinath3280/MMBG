@@ -1,0 +1,135 @@
+/* src/Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px 0px 0px ;
+  /* background-color: #699ff0; */
+  background-image: linear-gradient(to right, #3388f6, #4595f8, #58a2fa, #6baffb, #7fbbfb);
+}
+
+.login-content{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.login-box1, .welcome-back {
+  border-radius: 20px;
+  padding: 2rem;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.login-box1 {
+  /* background: #ffffff; */
+  margin-right: 2rem;
+  flex: 1;
+  max-width: 400px;
+}
+
+.login-box1 h1, .welcome-back h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.login-box1 p {
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),-0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-container i {
+  margin-right: 1rem;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  background: none;
+  flex: 1;
+}
+
+.bi {
+  width: 20px;
+  height: 20px;
+}
+
+.bi-person {
+  background: url('data:image/svg+xml;base64,INSERT_EMAIL_ICON_BASE64_HERE') no-repeat center center;
+  background-size: contain;
+}
+
+.bi-lock-fill {
+  background: url('data:image/svg+xml;base64,INSERT_LOCK_ICON_BASE64_HERE') no-repeat center center;
+  background-size: contain;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.remember-forgot a {
+  color: #6b73ff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #6b73ff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000dff;
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.create-account a {
+  color: #6b73ff;
+  text-decoration: none;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
+
+.welcome-back {
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  color: white;
+  flex: 1;
+  max-width: 400px;
+  text-align: center;
+  margin-top: 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+}
+
+.welcome-back p {
+  margin-top: 1rem;
+}

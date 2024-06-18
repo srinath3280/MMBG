@@ -1,0 +1,60 @@
+.class3{
+    margin-top: 100px;
+    text-align: start;
+    padding: 0px 200px 25px;
+}
+.class3 h1{
+    font-size: 30px;
+}
+.class3 .subjectlist{
+    width: 100%;
+    height: auto;
+}
+.subjectlist-items{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+    box-shadow: 1px 1px 5px rgb(211, 210, 210);
+    margin: 15px 5px;
+    padding: 0px 20px;
+}
+.subjectlist-items .subjectlist-items-subjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 10px;
+}
+.subjectlist-items .subjectlist-items-subjects h3{
+    margin: 0px;
+    padding: 0px;
+}
+.subjectlist-items .subjectlist-items-subjects p{
+    margin: 0px;
+    padding: 0px;
+    color: blueviolet;
+    border-radius: 20px;
+    background-color: rgb(226, 221, 230);
+    padding: 5px 10px;
+    margin: 10px 0px 0px;
+}
+.subjectlist-items a{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(136, 4, 245);
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.subjectlist-items a .bi-chevron-right{
+    font-size: 16px;
+}
+.subjectlist-items a:hover{
+    background-color: rgb(108, 4, 192);
+}
